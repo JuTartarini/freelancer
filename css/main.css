@@ -1,0 +1,177 @@
+/*
+ * Estilos de tu proyecto
+ */
+ body {
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+/*-------Navbar-------*/
+.bg-blue {
+    background-color: #2c3e50!important;
+}
+
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  box-sizing: border-box;
+
+}
+
+.navbar>.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-brand {
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  font-size: 2em;  
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #2c3e50!important;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    
+    color:#28a745;
+    
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  .topnav a.active {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 700;
+    font-family: Montserrat;
+    
+  }
+
+  #mainNav .navbar-nav {
+    
+    letter-spacing: .0625rem;
+}
+
+/*------------- Header ---------------*/
+
+.bg-green {
+  background-color: #18bc9c!important;
+  
+}
+
+.text-uppercase {
+  text-transform: uppercase!important;
+} 
+
+.text-white{
+  color: #ffffff!important;
+}
+
+.text-center{
+  text-align: center!important;
+}
+
+.font-weight-light {
+  font-weight:900!important;
+}
+  
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.img-profile {
+  max-width: 90%;
+  height: auto;
+}
+
+.text-blue {
+  color: #2c3e50!important;
+}
+
+.text-size{
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+#mainSection {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+ 
+}
+
+.row {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: space-between;
+  
+}
+
+
+.column{
+  max-width: 33.333333%;
+  margin-top: 30px;
+}
+
+.column-text{
+  max-width: 45%;
+  margin-top: 30px;
+}
+
+
+.text-Paragraph {
+  font-size: 1.25rem;
+  font-weight: 300;
+  justify-content: space-evenly;
+  text-align:justify;
+  
+}
+
+
+.btn {
+  border-width: 2px;
+}
+
+ 
